@@ -11,7 +11,7 @@
     align-content: center;
     }
 
-    body{
+body{
         background-color: #f9fafb;
         font-family: 'open sans', sans-serif;
         display: flex;
@@ -168,30 +168,21 @@ hr {
 }
 
 /*Media Query: Large Smartphone */
-@media screen and (max-width: 400px)
+@media only screen and (max-width: 600px)
 {
  h1 {
-
     font-size: 20px;
-
- }
-
+}
  h2 {
-
-    font-size: 15px;
+    font-size: 20px;
  }
-
  .container{
-  
-    width: 1500px;
-    height: 1500px;
+  zoom: 110%; 
 
  }
  .container2{
+    zoom: 65%; 
   
-    width: 1500px;
-    height: 1500px;
-
- }
+   }
 
 }
