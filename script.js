@@ -111,22 +111,22 @@ const loadingSubmit = function numAgeInput() {
     //Load Image File 
     if (sum >= 80) {
 
-        var myWindow = window.open("", "MsgWindow", "width=400, height=400");
-        myWindow.document.write("<img src='result80to100.jpg'>");
+        var myWindow = window.open("", "MsgWindow", "width=800, height=700");
+        myWindow.document.write("<img src='result80to100.png'>");
     }
 
     else if (sum >= 50 && sum <= 79) {
-        var myWindow = window.open("", "MsgWindow", "width=400, height=400");
-        myWindow.document.write("<img src='result50to79.jpg'>");
+        var myWindow = window.open("", "MsgWindow", "width=800, height=700");
+        myWindow.document.write("<img src='result50to79.png'>");
     }
 
     else if (sum >= 20 && sum <= 49) {
-        var myWindow = window.open("", "MsgWindow", "width=400, height=400");
-        myWindow.document.write("<img src='result20to49.jpg'>");
+        var myWindow = window.open("", "MsgWindow", "width=800, height=700");
+        myWindow.document.write("<img src='result20to49.png'>");
     }
     else if (sum >= 5 && sum <= 19) {
-        var myWindow = window.open("", "MsgWindow", "width=400, height=400");
-        myWindow.document.write("<img src='result19below.jpg'>");
+        var myWindow = window.open("", "MsgWindow", "width=800, height=700");
+        myWindow.document.write("<img src='result19below.png'>");
     }
     else {
         alert ("Please select an option");

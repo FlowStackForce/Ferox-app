@@ -166,3 +166,33 @@ hr {
     font-size: 2rem;
     letter-spacing: 3px;
 }
+
+/*Media Query: Large Smartphone */
+
+@media screen and (max-width: 600px)
+{
+ h1 {
+
+    font-size: 20px;
+
+ }
+
+ h2 {
+
+    font-size: 15px;
+ }
+
+ .container{
+  
+    width: 1000px;
+    height: 1000px;
+
+ }
+ .container2{
+  
+    width: 1000px;
+    height: 1000px;
+
+ }
+
+}
