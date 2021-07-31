@@ -5,7 +5,6 @@ let numStateInputV = 0
 let numWorkInputV = 0
 let sum = 0
 
-// Convert Input String to Number (Age)//
 const loadingSubmit = function numAgeInput() {
 
     const ageInput = document.getElementById("age-input");
@@ -14,7 +13,7 @@ const loadingSubmit = function numAgeInput() {
     const stateInput = document.getElementById("state-input");
 
 
-
+// Convert Input String to Number (Age)
     if (ageInput.value === "10 - 15") {
         numAgeInputV = 20;
     }
@@ -36,6 +35,9 @@ const loadingSubmit = function numAgeInput() {
     else if (ageInput.value === "50 - above") {
         numAgeInputV = 0;
     }
+    else if (ageInput.value === "") {
+        numAgeInputV = NaN;
+    }
     else {
         numAgeInputV = 0;
     }
@@ -52,7 +54,10 @@ const loadingSubmit = function numAgeInput() {
         numEduInputV = 10;
     }
     else if (eduInput.value === "Primary Education") {
-        numEduInputV = 10;
+        numEduInputV = 5;
+    }
+    else if (eduInput.value === "") {
+        numEduInputV = NaN;
     }
     else {
         numEduInputV = 0;
@@ -70,7 +75,10 @@ const loadingSubmit = function numAgeInput() {
         numWorkInputV = 5;
     }
     else if (workexpInput.value === "Retired") {
-        numWorkInputV = 5;
+        numWorkInputV = 0;
+    }
+    else if (workexpInput.value === "") {
+        numWorkInputV = NaN;
     }
     else {
         numWorkInputV = 0;
@@ -85,10 +93,13 @@ const loadingSubmit = function numAgeInput() {
         numStateInputV = 15;
     }
     else if (stateInput.value === "Other States in Nigeria") {
-        numStateInputV = 10;
+        numStateInputV = 5;
     }
     else if (stateInput.value === "Others") {
-        numStateInputV = 15;
+        numStateInputV = 10;
+    }
+    else if (stateInput.value === "") {
+        numStateInputV = NaN;
     }
     else {
         numStateInputV = 0;
@@ -113,7 +124,7 @@ const loadingSubmit = function numAgeInput() {
         var myWindow = window.open("", "MsgWindow", "width=400, height=400");
         myWindow.document.write("<img src='result20to49.jpg'>");
     }
-    else if (sum >= 15 && sum <= 19) {
+    else if (sum >= 5 && sum <= 19) {
         var myWindow = window.open("", "MsgWindow", "width=400, height=400");
         myWindow.document.write("<img src='result19below.jpg'>");
     }
