@@ -7,7 +7,7 @@
     border-radius: 10px;
     box-shadow: 0 2px  10px rgba(0, 0, 0, 3);
     width: 400px;
-    height: 650px;
+    height: 800px;
     align-content: center;
     }
 
@@ -168,8 +168,7 @@ hr {
 }
 
 /*Media Query: Large Smartphone */
-
-@media screen and (max-width: 600px)
+@media screen and (max-width: 400px)
 {
  h1 {
 
@@ -184,14 +183,14 @@ hr {
 
  .container{
   
-    width: 1000px;
-    height: 1000px;
+    width: 1500px;
+    height: 1500px;
 
  }
  .container2{
   
-    width: 1000px;
-    height: 1000px;
+    width: 1500px;
+    height: 1500px;
 
  }
 
