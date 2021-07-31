@@ -181,7 +181,10 @@ hr {
 
  }
  .container2{
-    zoom: 60%;
+    zoom: 70%;
+    width: 600px;
+    height: 1500px; 
+  
    }
 
 
