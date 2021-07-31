@@ -33,6 +33,9 @@ const loadingSubmit = function numAgeInput() {
     else if (ageInput.value === "41 - 49") {
         numAgeInputV = 15;
     }
+    else if (ageInput.value === "50 - above") {
+        numAgeInputV = 0;
+    }
     else {
         numAgeInputV = 0;
     }
@@ -48,8 +51,11 @@ const loadingSubmit = function numAgeInput() {
     else if (eduInput.value === "School Certificate") {
         numEduInputV = 10;
     }
+    else if (eduInput.value === "Primary Education") {
+        numEduInputV = 10;
+    }
     else {
-        numEduInputV = 5;
+        numEduInputV = 0;
     }
 
 
@@ -61,6 +67,9 @@ const loadingSubmit = function numAgeInput() {
         numWorkInputV = 10;
     }
     else if (workexpInput.value === "Entrepreneur") {
+        numWorkInputV = 5;
+    }
+    else if (workexpInput.value === "Retired") {
         numWorkInputV = 5;
     }
     else {
@@ -78,8 +87,11 @@ const loadingSubmit = function numAgeInput() {
     else if (stateInput.value === "Other States in Nigeria") {
         numStateInputV = 10;
     }
-    else {
+    else if (stateInput.value === "Others") {
         numStateInputV = 15;
+    }
+    else {
+        numStateInputV = 0;
     }
 
     //Calculate Result 
@@ -89,22 +101,24 @@ const loadingSubmit = function numAgeInput() {
     if (sum >= 80) {
 
         var myWindow = window.open("", "MsgWindow", "width=400, height=400");
-        myWindow.document.write("<img src='result80to100.png'>");
+        myWindow.document.write("<img src='result80to100.jpg'>");
     }
 
     else if (sum >= 50 && sum <= 79) {
         var myWindow = window.open("", "MsgWindow", "width=400, height=400");
-        myWindow.document.write("<img src='result50to79.png'>");
+        myWindow.document.write("<img src='result50to79.jpg'>");
     }
 
     else if (sum >= 20 && sum <= 49) {
         var myWindow = window.open("", "MsgWindow", "width=400, height=400");
-        myWindow.document.write("<img src='result20to49.png'>");
+        myWindow.document.write("<img src='result20to49.jpg'>");
     }
-
-    else {
+    else if (sum >= 15 && sum <= 19) {
         var myWindow = window.open("", "MsgWindow", "width=400, height=400");
-        myWindow.document.write("<img src='result19below.png'>");
+        myWindow.document.write("<img src='result19below.jpg'>");
+    }
+    else {
+        alert ("Please select an option");
     }
 }
 
