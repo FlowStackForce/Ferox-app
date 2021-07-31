@@ -185,5 +185,20 @@ hr {
     width: 500px;
     height: 900px;
    }
+.button2
+   {
+       background: orangered;
+       position: relative;
+       transition: all 1s;
+       padding: 10px 10px;
+       cursor: pointer; 
+       font-size: 16px;
+       width: 50%;
+       box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+       border: 0.3rem;
+       border-radius: 3rem;
+       margin-left: 6rem;
+       margin-top: 2rem;
+   }
 
 }
