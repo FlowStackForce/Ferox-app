@@ -89,7 +89,7 @@ font-family: Montserrat, sans-serif;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     border: 0.3rem;
     border-radius: 3rem;
-    margin-left: 7.5rem;
+    margin-left: 7.0rem;
     margin-top: 2rem;
 }
 
@@ -171,18 +171,19 @@ hr {
 @media only screen and (max-width: 600px)
 {
  h1 {
-    font-size: 20px;
+    font-size: 25px;
 }
  h2 {
-    font-size: 20px;
+    font-size: 25px;
  }
  .container{
-  zoom: 110%; 
+  zoom: 105%; 
 
  }
  .container2{
-    zoom: 65%; 
-  
+    zoom: 50%; 
+    width: 500px;
+    height: 900px;
    }
 
 }
