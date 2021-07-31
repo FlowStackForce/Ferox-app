@@ -129,7 +129,7 @@ const loadingSubmit = function numAgeInput() {
         myWindow.document.write("<img src='result19below.png'>");
     }
     else {
-        alert ("Please select an option");
+        alert ("Please select an option"); 
     }
 }
 
