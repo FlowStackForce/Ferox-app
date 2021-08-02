@@ -42,7 +42,7 @@ font-family: Montserrat, sans-serif;
     font-size: 16px;
     width: 50%;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    border: none;
+    border: 0.3rem;
     border-radius: 3rem;
     margin-left: 6rem;
 }
@@ -111,28 +111,6 @@ color: black;
 
 .menu{
     margin: 1rem;
-    }
-
-
-    .button3
-    {
-        background: orangered;
-        transition: all 1s;
-        padding: 10px 10px;
-        cursor: pointer; 
-        font-size: 16px;
-        width: 50%;
-        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-        border: 0.3rem;
-        border-radius: 3rem;
-        margin-left: 6.5rem;
-    
-    }
-    
-    .button3:hover
-    {
-    background: transparent;
-    color: black;
     }
 
 h3
